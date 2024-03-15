@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password-Maker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <div class="card">
+            <div class="row">
+                <h3 id="pass-box">Your passsowrd</h3>
+            </div>
+            <div class="row">
+                 <div class="left">Password Length</div>
+                 <div class="right">
+                 <input class="length" type="number" min="8" max="30" value="10">
+                 </div>
+                 </div>
+            <div class="row">
+                <label for="check-Uppercase">
+                 <div class="left">Contain Uppercase </div>
+                </label>
+                 <div class="right">
+                 <input  class="in" id="check-Uppercase" type="checkbox">
+                 </div>
+                 </div>
+            <div class="row">
+                <label for="check-lowercase">
+                 <div class="left">Contain Lowercase</div>
+                </label>
+                 <div class="right">
+                 <input class="in" id="check-lowercase" type="checkbox">
+                 </div>
+                 </div>
+            <div class="row">
+                <label for="check-number">
+                 <div class="left">Contain Number</div>
+                </label>
+                 <div class="right">
+                 <input class="in" id="check-number" type="checkbox">
+                 </div>
+                 </div>
+            <div class="row">
+                <label for="check-symbol">
+                 <div class="left">Contains Symbol</div>
+                </label>
+                 <div class="right">
+                 <input class="in" id="check-symbol" type="checkbox">
+                 </div>
+                 </div>
+             <div class="row">
+                <div id="btn">Genarate </div>
+             </div>    
+       </div>  
+        </div>
+        <script src="/logic.js"></script>
+</body>
+</html>
